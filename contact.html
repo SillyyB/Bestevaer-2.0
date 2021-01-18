@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact pagina</title>
+</head>
+<body>
+  <main>
+    <div class="navbar">
+        <a class="logo" href="index.html">⚓︎ Rederij Bestevaer</a>
+        <ul class="nav">
+          <li class="nav-list"><a class="nav-link" href="index.html">🏠 Home</a></li>
+          <li class="nav-list"><a class="nav-link" href="schepen.html">🚢 Onze schepen</a></li>
+          <li class="nav-list"><a class="nav-link" href="berekeningen.php">🧮 Berekeningen</a></li>
+          <li class="nav-list"><a class="nav-link" href="contact.html">📱 Contact</a></li>
+        </ul>
+      </div>
+</main>
+    <br><br><br><br><br><br><br><br><br>
+    <div class="container">  
+      <form id="contact" action="" method="post">
+        <h3>Contact Formulier</h3>
+        <h4>Contact ons voor enige vragen!</h4>
+        <fieldset>
+          <input placeholder="Uw naam.." type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Uw e-mail adres.." type="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Uw telefoonnummer.." type="tel" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+          <textarea placeholder="Type hier uw bericht.." tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Verzend</button>
+        </fieldset>
+      </form>
+    </div>
+</body>
+</html>
